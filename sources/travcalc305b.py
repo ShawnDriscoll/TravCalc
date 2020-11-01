@@ -1230,7 +1230,7 @@ if __name__ == '__main__':
 #                         datefmt='%a, %d %b %Y %H:%M:%S',
 #                         filemode = 'w')
 
-    log = logging.getLogger('travcalc_305b')
+    log = logging.getLogger('TravCalc305b')
     log.setLevel(logging.DEBUG)
 
     if not os.path.exists('Logs'):
@@ -1247,7 +1247,7 @@ if __name__ == '__main__':
     log.info(__app__ + ' starting...')
     
     trange = time.localtime()
-    if trange[0] > 2020 or trange[1] > 9:
+    if trange[0] > 2020 or trange[1] > 12:
         
         log.warning('Beta time period has expired!')
         
