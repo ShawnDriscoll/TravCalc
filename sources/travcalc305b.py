@@ -1,5 +1,6 @@
 #
 #   TravCalc 3.0.5 Beta for Mongoose Traveller 2nd Edition
+#   Written for Classic Python 2.5.4
 #
 #############################################################
 
@@ -1247,7 +1248,7 @@ if __name__ == '__main__':
     log.info(__app__ + ' starting...')
     
     trange = time.localtime()
-    if trange[0] > 2020 or trange[1] > 12:
+    if trange[0] > 2021 or trange[1] > 4:
         
         log.warning('Beta time period has expired!')
         

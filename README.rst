@@ -3,7 +3,9 @@
 **TravCalc 3.0.5b**
 ===================
 
-**TravCalc 3.0.5b** is a Windows program for calculating die rolls for Mongoose Traveller 2nd Edition. Check the ReadMe for instructions on installing and running this program.
+Beta testing will resume on JAN 01, 2021!
+
+**TravCalc 3.0.5b** is a Windows program for calculating die rolls for Mongoose Traveller 2nd Edition. Check the ReadMe in DOCS for instructions on installing and running this program.
 
 Notes
 -----
