@@ -17,9 +17,6 @@ ehthumbs.db
 # Folder config file
 Desktop.ini
 
-# Mac
-.DS_Store
-
 
 ############
 ## Python
@@ -30,8 +27,6 @@ Desktop.ini
 # Packages
 *.egg
 *.egg-info
-dist/
-build/
 eggs/
 parts/
 var/
@@ -39,13 +34,14 @@ sdist/
 develop-eggs/
 .installed.cfg
 
-#########
-## gcc
-#########
-*.exe
-
 
 ############
 ## Jython
 ############
 *.class
+
+
+#############
+## Temp Files
+#############
+temp/
