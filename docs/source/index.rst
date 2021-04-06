@@ -31,9 +31,6 @@ Future Enterprises.
    :maxdepth: 2
 
    introduction
-   installing
-   tutorial
-   saveddata
    license
    ffe
    about_the_author
