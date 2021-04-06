@@ -3,16 +3,15 @@
 **TravCalc Manual**
 ===================
 
-What began as a DOS prompt NPC generator escalated into a web-browsed one...
-
-**TravCalc** is an easy-to-use open source NPC generator for Mongoose Traveller 1st and 2nd Editions. It's written
-in Classic Python 2.5 and includes **diceroll 3.1** for its die rolling. Source for **diceroll 3.1** can be found at
+**TravCalc** is a Windows program for calculating die rolls for Mongoose Traveller
+2nd Edition. It's written in Classic Python 2.5 and includes **diceroll 3.1** for
+its die rolling. Source for **diceroll 3.1** can be found at
 its `GitHub
 <https://github.com/ShawnDriscoll/diceroll/>`__ repository.
 
 **TravCalc** features minor logging and error tracking at this time.
 
-This documentation explains how to install and use **TravCalc** for Traveller NPC generation.
+This documentation explains how to install and use **TravCalc** for die roll calculations.
 
 .. image:: python_classic_2_5_tag.png
     :target: https://www.python.org/download/releases/2.5.4/
