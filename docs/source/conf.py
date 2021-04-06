@@ -35,7 +35,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General substitutions.
-project = u'TravLITE Guide'
+project = u'TravCalc Manual'
 copyright = u'2021, SHONNER CORP'
 author = u'SHONNER CORP'
 
@@ -43,9 +43,9 @@ author = u'SHONNER CORP'
 # other places throughout the built documents.
 #
 # The short X.Y version.
-version = '0.2'
+version = '3.0'
 # The full version, including alpha/beta/rc tags.
-release = '0.2.0'
+release = '3.0.6'
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
@@ -98,7 +98,7 @@ html_theme = 'agogo'
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = 'TravLITE Guide'
+html_title = 'TravCalc Manual'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -153,7 +153,7 @@ html_copy_source = False
 #html_file_suffix = ''
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'travliteguidedoc'
+htmlhelp_basename = 'travcalcmanualdoc'
 
 
 # Options for LaTeX output
@@ -169,14 +169,14 @@ latex_font_size = '12pt'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, document class [howto/manual]).
 latex_documents = [
-  ('index', 'travliteguide.tex', u'TravLITE Guide',
+  ('index', 'travcalcmanual.tex', u'TravCalc Manual',
    u'Shawn Driscoll', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
 #latex_logo = None
-latex_logo = 'travlite_book_cover_art.png'
+latex_logo = 'travcalc_manual_cover_art.png'
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
