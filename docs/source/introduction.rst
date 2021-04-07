@@ -4,31 +4,18 @@
 Preface
 -------
 
-I am an old-school computer programmer from the 1970s.
+I've written various die rolling programs for various computers over the decades. Every computer language had its own way of randomly generating numbers for dice results. These were pseudo random results, but still pseudo random enough to be useful for what I needed. I remember writing a Risk! game on the computer, and programming the die rolls needed for comparisons between players. That was back in 1989. I wish I still had listings from that program. And from others. That was back when computer programmers printed out their program listings and desk-checked them in 24-hour restaurants at 2am.
 
-That sounded redundant after reading it. Oh well. Hardly anyone still
-uses that term these days. Everyone is an app developer now. Or a coder. Most write for phones instead of computers. And their
-code is pretty much connected at the hip to the web.
+The reason I wrote a "calculator" for Mongoose Traveller 2nd Edition was because I had tried some from other programmers (most of them were web-based and for Classic Traveller, if I recall), but none of them did more than 2D rolls. I'm guessing by now they do, because more people are playing Mongoose Traveller 2nd Edition.
 
-I'll face it, everything is web-based now. Years would go by and I'd think about figuring a way to make my computer programs
-work on the Internet. Or at least run in a web browser. But after reading the books and seeing the complications involved, I'd
-go back to programming computers the way I knew how.
+Anyway, at the time when I first made this program, I didn't know how to write programs that ran in the browser. So my other option was to write the program in Windows, and use whatever GUI for Python that looked best. At the time, it was `PyQt
+<https://en.wikipedia.org/wiki/PyQt>`__ that I liked. `wxPython
+<https://en.wikipedia.org/wiki/WxPython>`__ and `Tkinter
+<https://en.wikipedia.org/wiki/Tkinter>`__ didn't have nearly the ease-of-use and production value that PyQt had.
 
-Like I said before, I've been programming computers for a long time. I've tried so many languages over the years. And when I gave
-Python a try, I ceased using anything else. Python was the language I had been waiting for. I have books on C/C++, MS Visual Studio,
-BASIC, Lisp, Pascal, FORTRAN, ASM, and so many others that I won't look at again.
+Seven years ago, when I released very early versions that would eventually lead up to this program's design, I knew that very few people were still using computers. Most were using their phones to roll dice on. I see the reasons for it. I happen to have a computer while I play Traveller online with other players. So my program is right there on the screen if needed.
 
-One thing nice about Python is that something cool comes out for it every day. Some of the things that have come out are web page
-servers, which run in the background on your computer and listen for requests from web browsers. Some have been around for years,
-like `Django
-<https://en.wikipedia.org/wiki/Django_(web_framework)>`__ and `Flask
-<https://en.wikipedia.org/wiki/Flask_(web_framework)>`__.
-
-One doesn't often think "Python" when developing a web site. But it can do the job, surprisingly. Of course, knowing HTML is still
-a requirement. The trick is also getting Python to output HTML "code." For that, I recently chose to use `Bottle
-<https://en.wikipedia.org/wiki/Bottle_(web_framework)>`__ because it's more minimal compared to Django and Flask.
-
-I spent a day learning Bottle. That's how easy it was to set up and start using. I just wish I had thought of doing it sooner.
+Now that I now how to program for the browser, I might one day try doing this for the web. We'll have to see.
 
 -Shawn
 
@@ -38,30 +25,29 @@ Requirements
 
 * **Microsoft Windows**
    
-   **TravLITE** has been tested on Windows 10 only.
+   **TravCalc** has been tested on Windows XP/7/10.
    It has not been tested on MacOS or Linux.
    
 * **Classic Python 2.5**
    
-   **TravLITE** was written using the C implementation of Classic Python
+   **TravCalc** was written using the C implementation of Classic Python
    version 2.5.4. Also known as CPython.
    
-* **bottle 0.12.13**
+* **PyQt 4.9.4**
 
-   bottle is the web framework used for serving the web page requests.
+   PyQt is the framework used for displaying the Window GUI and buttons, etc.
 
-* **colorama 0.2.7**
+* **numpy 1.7.1**
 
-   Because CMD may have some colored text messages for debugging.
+   For building arrays.
 
-* **simplejson 3.11.1**
+* **matplotlib 1.1.1**
 
-   Used for saving data in JSON format. This feature was introduced
-   in release 0.2.0.
+   For graphics plotting.
    
 * **py2exe 0.6.9**
 
    Used by setup_TL.py for making EXEs of the Python code for you. Optional.
    
 .. Warning::
-   **TravLITE** will not work with **Python 2.6+**.
+   **TravCalc** will not work with **Python 2.6+**.

@@ -20,7 +20,7 @@
     <link rel="index" title="Global index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="top" title="TravCalc Manual" href="index.html" />
-    <link rel="next" title="Open Source" href="license.html" />
+    <link rel="next" title="Installing" href="installing.html" />
     <link rel="prev" title="TravCalc Manual" href="index.html" />
   </head>
   <body>
@@ -28,7 +28,7 @@
       <h3>Navigation</h3>
       <ul>
         <li class="right" style="margin-right: 10px">
-          <a href="license.html" title="Open Source"
+          <a href="installing.html" title="Installing"
              accesskey="N">next</a></li>
         <li class="right" >
           <a href="index.html" title="TravCalc Manual"
@@ -46,22 +46,11 @@
 <h1><strong>Introduction</strong><a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="preface">
 <h2>Preface<a class="headerlink" href="#preface" title="Permalink to this headline">¶</a></h2>
-<p>I am an old-school computer programmer from the 1970s.</p>
-<p>That sounded redundant after reading it. Oh well. Hardly anyone still
-uses that term these days. Everyone is an app developer now. Or a coder. Most write for phones instead of computers. And their
-code is pretty much connected at the hip to the web.</p>
-<p>I'll face it, everything is web-based now. Years would go by and I'd think about figuring a way to make my computer programs
-work on the Internet. Or at least run in a web browser. But after reading the books and seeing the complications involved, I'd
-go back to programming computers the way I knew how.</p>
-<p>Like I said before, I've been programming computers for a long time. I've tried so many languages over the years. And when I gave
-Python a try, I ceased using anything else. Python was the language I had been waiting for. I have books on C/C++, MS Visual Studio,
-BASIC, Lisp, Pascal, FORTRAN, ASM, and so many others that I won't look at again.</p>
-<p>One thing nice about Python is that something cool comes out for it every day. Some of the things that have come out are web page
-servers, which run in the background on your computer and listen for requests from web browsers. Some have been around for years,
-like <a class="reference external" href="https://en.wikipedia.org/wiki/Django_(web_framework)">Django</a> and <a class="reference external" href="https://en.wikipedia.org/wiki/Flask_(web_framework)">Flask</a>.</p>
-<p>One doesn't often think &quot;Python&quot; when developing a web site. But it can do the job, surprisingly. Of course, knowing HTML is still
-a requirement. The trick is also getting Python to output HTML &quot;code.&quot; For that, I recently chose to use <a class="reference external" href="https://en.wikipedia.org/wiki/Bottle_(web_framework)">Bottle</a> because it's more minimal compared to Django and Flask.</p>
-<p>I spent a day learning Bottle. That's how easy it was to set up and start using. I just wish I had thought of doing it sooner.</p>
+<p>I've written various die rolling programs for various computers over the decades. Every computer language had its own way of randomly generating numbers for dice results. These were pseudo random results, but still pseudo random enough to be useful for what I needed. I remember writing a Risk! game on the computer, and programming the die rolls needed for comparisons between players. That was back in 1989. I wish I still had listings from that program. And from others. That was back when computer programmers printed out their program listings and desk-checked them in 24-hour restaurants at 2am.</p>
+<p>The reason I wrote a &quot;calculator&quot; for Mongoose Traveller 2nd Edition was because I had tried some from other programmers (most of them were web-based and for Classic Traveller, if I recall), but none of them did more than 2D rolls. I'm guessing by now they do, because more people are playing Mongoose Traveller 2nd Edition.</p>
+<p>Anyway, at the time when I first made this program, I didn't know how to write programs that ran in the browser. So my other option was to write the program in Windows, and use whatever GUI for Python that looked best. At the time, it was <a class="reference external" href="https://en.wikipedia.org/wiki/PyQt">PyQt</a> that I liked. <a class="reference external" href="https://en.wikipedia.org/wiki/WxPython">wxPython</a> and <a class="reference external" href="https://en.wikipedia.org/wiki/Tkinter">Tkinter</a> didn't have nearly the ease-of-use and production value that PyQt had.</p>
+<p>Seven years ago, when I released very early versions that would eventually lead up to this program's design, I knew that very few people were still using computers. Most were using their phones to roll dice on. I see the reasons for it. I happen to have a computer while I play Traveller online with other players. So my program is right there on the screen if needed.</p>
+<p>Now that I now how to program for the browser, I might one day try doing this for the web. We'll have to see.</p>
 <p>-Shawn</p>
 </div>
 <div class="section" id="requirements">
@@ -69,30 +58,29 @@ a requirement. The trick is also getting Python to output HTML &quot;code.&quot;
 <ul>
 <li><p class="first"><strong>Microsoft Windows</strong></p>
 <blockquote>
-<p><strong>TravLITE</strong> has been tested on Windows 10 only.
+<p><strong>TravCalc</strong> has been tested on Windows XP/7/10.
 It has not been tested on MacOS or Linux.</p>
 </blockquote>
 </li>
 <li><p class="first"><strong>Classic Python 2.5</strong></p>
 <blockquote>
-<p><strong>TravLITE</strong> was written using the C implementation of Classic Python
+<p><strong>TravCalc</strong> was written using the C implementation of Classic Python
 version 2.5.4. Also known as CPython.</p>
 </blockquote>
 </li>
-<li><p class="first"><strong>bottle 0.12.13</strong></p>
+<li><p class="first"><strong>PyQt 4.9.4</strong></p>
 <blockquote>
-<p>bottle is the web framework used for serving the web page requests.</p>
+<p>PyQt is the framework used for displaying the Window GUI and buttons, etc.</p>
 </blockquote>
 </li>
-<li><p class="first"><strong>colorama 0.2.7</strong></p>
+<li><p class="first"><strong>numpy 1.7.1</strong></p>
 <blockquote>
-<p>Because CMD may have some colored text messages for debugging.</p>
+<p>For building arrays.</p>
 </blockquote>
 </li>
-<li><p class="first"><strong>simplejson 3.11.1</strong></p>
+<li><p class="first"><strong>matplotlib 1.1.1</strong></p>
 <blockquote>
-<p>Used for saving data in JSON format. This feature was introduced
-in release 0.2.0.</p>
+<p>For graphics plotting.</p>
 </blockquote>
 </li>
 <li><p class="first"><strong>py2exe 0.6.9</strong></p>
@@ -103,7 +91,7 @@ in release 0.2.0.</p>
 </ul>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
-<p class="last"><strong>TravLITE</strong> will not work with <strong>Python 2.6+</strong>.</p>
+<p class="last"><strong>TravCalc</strong> will not work with <strong>Python 2.6+</strong>.</p>
 </div>
 </div>
 </div>
@@ -127,7 +115,7 @@ in release 0.2.0.</p>
             <h4>Previous topic</h4>
             <p class="topless"><a href="index.html" title="previous chapter"><strong>TravCalc Manual</strong></a></p>
             <h4>Next topic</h4>
-            <p class="topless"><a href="license.html" title="next chapter"><strong>Open Source</strong></a></p>
+            <p class="topless"><a href="installing.html" title="next chapter"><strong>Installing</strong></a></p>
             <h3>Quick search</h3>
             <form class="search" action="search.html" method="get">
               <input type="text" name="q" size="18" /> <input type="submit" value="Go" />
@@ -142,7 +130,7 @@ in release 0.2.0.</p>
       <h3>Navigation</h3>
       <ul>
         <li class="right" style="margin-right: 10px">
-          <a href="license.html" title="Open Source"
+          <a href="installing.html" title="Installing"
              accesskey="N">next</a></li>
         <li class="right" >
           <a href="index.html" title="TravCalc Manual"
@@ -152,7 +140,7 @@ in release 0.2.0.</p>
     </div>
     <div class="footer">
       &copy; Copyright 2021, SHONNER CORP.
-      Last updated on Apr 05, 2021.
+      Last updated on Apr 07, 2021.
       Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
     </div>
   </body>

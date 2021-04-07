@@ -1,4 +1,4 @@
-**TravLITE Tutorial**
+**TravCalc Tutorial**
 =====================
 
 The Screen
