@@ -1,7 +1,0 @@
-C:\>diceroll.py roll('2d6-2')
-
-Your 2D6-2 roll is 10.
-
-C:\>diceroll.py 2d6-2
-
-Your 2D6-2 roll is 7.
