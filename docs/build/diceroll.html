@@ -2,7 +2,7 @@
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>About the Author &mdash; diceroll 3.1 Operations Manual</title>
+    <title>diceroll Module &mdash; diceroll 3.1 Operations Manual</title>
     <link rel="stylesheet" href="_static/default.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -20,7 +20,8 @@
     <link rel="index" title="Global index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="top" title="diceroll 3.1 Operations Manual" href="index.html" />
-    <link rel="prev" title="FFE Agreement" href="ffe.html" />
+    <link rel="next" title="Glossary" href="glossary.html" />
+    <link rel="prev" title="Designer's Notes" href="designers_notes.html" />
   </head>
   <body>
     <div class="related">
@@ -33,7 +34,10 @@
           <a href="modindex.html" title="Global Module Index"
              accesskey="M">modules</a> |</li>
         <li class="right" >
-          <a href="ffe.html" title="FFE Agreement"
+          <a href="glossary.html" title="Glossary"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="designers_notes.html" title="Designer's Notes"
              accesskey="P">previous</a> |</li>
         <li><a href="index.html">diceroll 3.1 Operations Manual</a> &raquo;</li>
       </ul>
@@ -44,13 +48,28 @@
           <div class="body">
             
   
-  <div class="section" id="about-the-author">
-<h1><strong>About the Author</strong><a class="headerlink" href="#about-the-author" title="Permalink to this headline">¶</a></h1>
-<div class="figure">
-<img alt="_images/author_photo.png" src="_images/author_photo.png" />
+  <div class="section" id="module-diceroll">
+<h1><strong>diceroll Module</strong><a class="headerlink" href="#module-diceroll" title="Permalink to this headline">¶</a></h1>
+<dl class="method">
+<dt id="diceroll.roll">
+<!--[diceroll.roll]--><tt class="descname">roll</tt><big>(</big><em>number_of_dice + dice_type + dice_roll_modifier</em><big>)</big><a class="headerlink" href="#diceroll.roll" title="Permalink to this definition">¶</a></dt>
+<dd><div class="line-block">
+<div class="line"><tt class="docutils literal"><span class="pre">roll()</span></tt> accepts a string value made up of three concatenated values, then returns an integer.</div>
+<div class="line"><br /></div>
+<div class="line">String values comes from <em>number_of_dice</em> + <em>dice_type</em> + <em>dice_roll_modifier</em></div>
+<div class="line"><br /></div>
+<div class="line">Some examples are:</div>
+<div class="line">'2' + 'D10' + '-2'</div>
+<div class="line">str(3) + 'D6' + '+2'</div>
+<div class="line">'FLUX'</div>
+<div class="line"><br /></div>
+<div class="line"><em>dice_roll_modifier</em> must include a '+' or '-' with its value.</div>
+<div class="line"><br /></div>
+<div class="line">Note that both <em>number_of_dice</em> and <em>dice_roll_modifier</em> are optional, and may not even be</div>
+<div class="line">used by some <em>dice_type</em> rolls.</div>
 </div>
-<p>Shawn Driscoll is an American artist. Computers are his main creation tool. His many hobbies are in sync with his
-being a student of all sciences. Some of which are discussed in length on his <a class="reference external" href="https://www.youtube.com/user/ShawnDriscollCG">YouTube</a> channel.</p>
+</dd></dl>
+
 </div>
 
 
@@ -61,7 +80,9 @@ being a student of all sciences. Some of which are discussed in length on his <a
         <div class="sphinxsidebarwrapper">
             <p class="logo"><img class="logo" src="_static/shonner_trans.png" alt="Logo"/></p>
             <h4>Previous topic</h4>
-            <p class="topless"><a href="ffe.html" title="previous chapter"><strong>FFE Agreement</strong></a></p>
+            <p class="topless"><a href="designers_notes.html" title="previous chapter"><strong>Designer's Notes</strong></a></p>
+            <h4>Next topic</h4>
+            <p class="topless"><a href="glossary.html" title="next chapter"><strong>Glossary</strong></a></p>
             <h3>Quick search</h3>
             <form class="search" action="search.html" method="get">
               <input type="text" name="q" size="18" /> <input type="submit" value="Go" />
@@ -82,7 +103,10 @@ being a student of all sciences. Some of which are discussed in length on his <a
           <a href="modindex.html" title="Global Module Index"
              accesskey="M">modules</a> |</li>
         <li class="right" >
-          <a href="ffe.html" title="FFE Agreement"
+          <a href="glossary.html" title="Glossary"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="designers_notes.html" title="Designer's Notes"
              accesskey="P">previous</a> |</li>
         <li><a href="index.html">diceroll 3.1 Operations Manual</a> &raquo;</li>
       </ul>
