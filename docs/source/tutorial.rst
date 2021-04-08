@@ -5,7 +5,7 @@ The GUI
 -------
 After the program starts, there should be a screen that looks like:
 
-.. figure:: program_screen.png
+.. figure:: program_start_screen.png
 
 The screen contains various outlined areas that are labeled as:
 
