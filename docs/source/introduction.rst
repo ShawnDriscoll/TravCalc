@@ -47,7 +47,7 @@ Requirements
    
 * **py2exe 0.6.9**
 
-   Used by setup_TL.py for making EXEs of the Python code for you. Optional.
+   Used by setup_306b.py for making EXEs of the Python code for you. Optional.
    
 .. Warning::
    **TravCalc** will not work with **Python 2.6+**.
