@@ -15,7 +15,7 @@ Anyway, at the time when I first made this program, I didn't know how to write p
 
 Seven years ago, when I released very early versions that would eventually lead up to this program's design, I knew that very few people were still using computers. Most were using their phones to roll dice on. I see the reasons for it. I happen to have a computer while I play Traveller online with other players. So my program is right there on the screen if needed.
 
-Now that I now how to program for the browser, I might one day try doing this for the web. We'll have to see.
+Now that I know how to program for the browser, I might one day try doing this for the web. We'll have to see.
 
 -Shawn
 
