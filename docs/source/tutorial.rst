@@ -32,18 +32,18 @@ Typically, task rolls will have a difficulty chosen by the game's referee. The p
 
 .. note::
 
-   The default characteristic value is **7**. Be sure to input your character's own value in its place before rolling any dice. The same goes for the skill level, which has a default of **0**. Give it the value of your character's skill level for the task being done.
+   The default **Characteristic** value is **7**. Be sure to input your character's own value in its place before rolling any dice. The same goes for the **Skill Level**, which has a default of **0**. Give it the value of your character's skill level for the task being done.
    
-   Don't worry about the characteristic mod amount. Its value is calculated automatically, as well as the DM total.
+   Don't worry about the characteristic **Mod** amount. Its value is calculated automatically, as well as the DM **Total**.
 
-Once the DM is calculated, a roll is then made (determined by the referee). The dice will be shown. The roll result and effect will be calculated. And the task time will be calculated if a timeframe was chosen.
+Once the DM is calculated, a roll is then made (determined by the referee). The dice will be shown. The roll **Result** and **Effect** will be calculated. And the **Task Time** will be calculated if a **Timeframe** was chosen.
 
-A graph of the outcome will then be displayed.
+A graph of the **Outcome** will then be displayed.
 
 
 Making a Damage Roll
 --------------------
-The **D** and **DD** rolls calculate the "soaking" of damage against armor. Armor amount is entered, along with hidden cover amount (*which is new in v3.0.6b*) and **AP** amount. The number of dice is selected. And a DM can be added before clicking either the **D** or **DD** roll buttons. The effect will be added to **D** rolls.
+The **D** and **DD** rolls calculate the "soaking" of damage against armor. **Armor** amount is entered, along with hidden **Cover** amount (*which is new in v3.0.6b*) and **AP** amount. The number of dice is selected. And a **DM** can be added before clicking either the **D** or **DD** roll buttons. The effect will be added to **D** rolls.
 
 The **Clear** button will reset the damage area.
 The **Clear All** button will reset all the areas.
@@ -56,4 +56,4 @@ Voice styles (yes, voice styles) can be selected from the **Audio** menu.
 
 .. note::
    
-   Only the **female voice** works with general die rolls (rolls made without a task difficulty).
+   Only the **female voice** works with general die rolls (rolls made without a **Task Difficulty**).
