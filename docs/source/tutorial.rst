@@ -19,7 +19,7 @@ The screen contains various outlined areas that are labeled as:
    | Calculate a damage roll.
    |
    | **Outcome:**
-   | Displays a plotted graph of the roll chances and of the roll result, if a difficulty is chosen.
+   | Displays a plotted graph of the roll chances, and of the roll result if a difficulty is chosen.
 
 .. note::
 

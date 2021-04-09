@@ -1,8 +1,11 @@
 **Installing**
 ==============
 
+Downloading TravCalc
+--------------------
 Installing and using **TravCalc** seems simple enough. Just download the archive from `GitHub
 <https://github.com/ShawnDriscoll/TravCalc>`__ and extract it to a folder you prefer.
+
 
 Running TravCalc
 ----------------
