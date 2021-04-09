@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'aboutdialog_306b.ui'
 #
-# Created: Mon Mar 22 20:31:58 2021
+# Created: Thu Apr 08 21:04:52 2021
 #      by: PyQt4 UI code generator 4.9.4
 #
 # WARNING! All changes made in this file will be lost!
@@ -53,6 +53,6 @@ class Ui_aboutDialog(object):
     def retranslateUi(self, aboutDialog):
         aboutDialog.setWindowTitle(QtGui.QApplication.translate("aboutDialog", "About TravCalc", None, QtGui.QApplication.UnicodeUTF8))
         self.aboutOKButton.setText(QtGui.QApplication.translate("aboutDialog", "OK", None, QtGui.QApplication.UnicodeUTF8))
-        self.textLabel.setText(QtGui.QApplication.translate("aboutDialog", "<html><head/><body><p><span style=\" font-weight:600;\">TravCalc for Windows XP/7/8/10</span></p><p>Version: Mongoose Traveller 2nd Edition</p><p>Build: 3.0.6 (Beta)</p><p>Produced by Shawn Driscoll. Copyright (C) 2021.</p><p>Visit blog at <a href=\"http://shawndriscoll.blogspot.com\"><span style=\" text-decoration: underline; color:#0000ff;\">shawndriscoll.blogspot.com</span></a><br/>For support, email <a href=\"mailto:shawndriscoll@hotmail.com?subject=TravCalc 3.0.6 (Beta) for Mongoose Traveller 2nd Edition\"><span style=\" text-decoration: underline; color:#0000ff;\">shawndriscoll@hotmail.com</span></a></p><p>Qt GUI Toolkit is copyright (C) 2012 Nokia Corporation</p><p><br/></p><p>The Traveller game in all forms is owned by Far Future Enterprises. Copyright 1977 - 2021 Far Future Enterprises. Traveller is a registered trademark of Far Future Enterprises.</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.textLabel.setText(QtGui.QApplication.translate("aboutDialog", "<html><head/><body><p><span style=\" font-weight:600;\">TravCalc for Windows XP/7/8/10</span></p><p>Version: Mongoose Traveller 2nd Edition</p><p>Build: 3.0.6 (Beta)</p><p>Produced by Shawn Driscoll. Copyright (C) 2021.</p><p>Get the latest manual at <a href=\"https://travcalcmanual.readthedocs.io/en/latest/\"><span style=\" text-decoration: underline; color:#0000ff;\">Read the Docs</span></a><br/>Visit blog at <a href=\"http://shawndriscoll.blogspot.com\"><span style=\" text-decoration: underline; color:#0000ff;\">shawndriscoll.blogspot.com</span></a><br/>For support, email <a href=\"mailto:shawndriscoll@hotmail.com?subject=TravCalc 3.0.6 (Beta) for Mongoose Traveller 2nd Edition\"><span style=\" text-decoration: underline; color:#0000ff;\">shawndriscoll@hotmail.com</span></a></p><p>Qt GUI Toolkit is copyright (C) 2012 Nokia Corporation</p><p><br/></p><p>The Traveller game in all forms is owned by Far Future Enterprises. Copyright 1977 - 2021 Far Future Enterprises. Traveller is a registered trademark of Far Future Enterprises.</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
 
 import travcalc_306b_rc
