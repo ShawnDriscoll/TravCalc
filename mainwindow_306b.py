@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'mainwindow_306b.ui'
 #
-# Created: Mon Mar 22 20:31:57 2021
+# Created: Fri Apr 09 12:54:22 2021
 #      by: PyQt4 UI code generator 4.9.4
 #
 # WARNING! All changes made in this file will be lost!
@@ -150,7 +150,7 @@ class Ui_MainWindow(object):
         self.inputlevel.setSingleStep(1)
         self.inputlevel.setObjectName(_fromUtf8("inputlevel"))
         self.die1Label = QtGui.QLabel(self.taskBox)
-        self.die1Label.setGeometry(QtCore.QRect(320, 150, 48, 48))
+        self.die1Label.setGeometry(QtCore.QRect(300, 150, 48, 48))
         self.die1Label.setText(_fromUtf8(""))
         self.die1Label.setPixmap(QtGui.QPixmap(_fromUtf8(":/images/die1_0.png")))
         self.die1Label.setObjectName(_fromUtf8("die1Label"))
@@ -160,12 +160,12 @@ class Ui_MainWindow(object):
         self.die3Label.setPixmap(QtGui.QPixmap(_fromUtf8(":/images/die2_0.png")))
         self.die3Label.setObjectName(_fromUtf8("die3Label"))
         self.die2Label = QtGui.QLabel(self.taskBox)
-        self.die2Label.setGeometry(QtCore.QRect(370, 150, 48, 48))
+        self.die2Label.setGeometry(QtCore.QRect(350, 150, 48, 48))
         self.die2Label.setText(_fromUtf8(""))
         self.die2Label.setPixmap(QtGui.QPixmap(_fromUtf8(":/images/die2_0.png")))
         self.die2Label.setObjectName(_fromUtf8("die2Label"))
         self.rollBox = QtGui.QGroupBox(self.taskBox)
-        self.rollBox.setGeometry(QtCore.QRect(10, 140, 291, 61))
+        self.rollBox.setGeometry(QtCore.QRect(10, 140, 281, 61))
         font = QtGui.QFont()
         font.setBold(True)
         font.setWeight(75)
@@ -185,7 +185,7 @@ class Ui_MainWindow(object):
         self.roll2D_Button.setFlat(False)
         self.roll2D_Button.setObjectName(_fromUtf8("roll2D_Button"))
         self.rollBoon_Button = QtGui.QPushButton(self.rollBox)
-        self.rollBoon_Button.setGeometry(QtCore.QRect(80, 20, 61, 31))
+        self.rollBoon_Button.setGeometry(QtCore.QRect(70, 20, 61, 31))
         font = QtGui.QFont()
         font.setPointSize(12)
         font.setBold(True)
@@ -198,7 +198,7 @@ class Ui_MainWindow(object):
         self.rollBoon_Button.setFlat(False)
         self.rollBoon_Button.setObjectName(_fromUtf8("rollBoon_Button"))
         self.rollBane_Button = QtGui.QPushButton(self.rollBox)
-        self.rollBane_Button.setGeometry(QtCore.QRect(150, 20, 61, 31))
+        self.rollBane_Button.setGeometry(QtCore.QRect(130, 20, 61, 31))
         font = QtGui.QFont()
         font.setPointSize(12)
         font.setBold(True)
@@ -211,7 +211,7 @@ class Ui_MainWindow(object):
         self.rollBane_Button.setFlat(False)
         self.rollBane_Button.setObjectName(_fromUtf8("rollBane_Button"))
         self.rollD66_Button = QtGui.QPushButton(self.rollBox)
-        self.rollD66_Button.setGeometry(QtCore.QRect(220, 20, 61, 31))
+        self.rollD66_Button.setGeometry(QtCore.QRect(210, 20, 61, 31))
         font = QtGui.QFont()
         font.setPointSize(12)
         font.setBold(True)
@@ -255,7 +255,7 @@ class Ui_MainWindow(object):
         self.charmod.setAlignment(QtCore.Qt.AlignCenter)
         self.charmod.setObjectName(_fromUtf8("charmod"))
         self.dieRange = QtGui.QLabel(self.taskBox)
-        self.dieRange.setGeometry(QtCore.QRect(320, 130, 101, 20))
+        self.dieRange.setGeometry(QtCore.QRect(300, 130, 101, 20))
         self.dieRange.setText(_fromUtf8(""))
         self.dieRange.setPixmap(QtGui.QPixmap(_fromUtf8(":/images/die_range.png")))
         self.dieRange.setAlignment(QtCore.Qt.AlignCenter)
