@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# TravLITE Guide documentation build configuration file.
+# TravCalc Guide documentation build configuration file.
 #
 # This file is execfile()d with the current directory set to its containing dir.
 #
