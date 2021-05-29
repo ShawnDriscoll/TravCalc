@@ -45,3 +45,10 @@ develop-eggs/
 ## Temp Files
 #############
 temp/
+
+
+##############
+## Qt Designer
+##############
+*.ui
+*.qrc
