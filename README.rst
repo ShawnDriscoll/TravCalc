@@ -7,6 +7,9 @@
 .. image:: https://readthedocs.org/projects/travcalcmanual/badge/?version=latest
     :target: http://travcalcmanual.readthedocs.io/en/latest/?badge=latest
     :alt: Doc Status
+	
+.. image:: https://img.shields.io/github/stars/ShawnDriscoll/TravCalc.svg
+	:target: https://github.com/ShawnDriscoll/TravCalc/stargazers
 
 
 
